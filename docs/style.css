@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #4158D0;
+  background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+
+.container {
+  color: #1C1C1C;
+  background: #ECF4FF;
+  margin: 30px 60px;
+  background-position: absolute;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #F9629F;
+  padding: 70px;
+}
+
+.haut {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profil {
+  display: flex;
+}
+
+.profil img {
+  border-radius: 400px;
+  max-height: 180px;
+  box-shadow: 0 5px 5px #F9629F;
+}
+
+.profil-titre {
+  margin-left: 16px;
+}
+
+.profil-titre h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.profil-titre h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.bouton-menu button {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: pink;
+  border-radius: 100px;
+}
+
+.projets {
+  display: flex;
+  flex-direction: column;
+  background: pink;
+  margin-top: 32px;
+  padding: 32px;
+  border-radius:20px;
+}
+
+.projets ul {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.projets li {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 46px;
+  color: #1C1C1C;
+}
+
+.dark .container {
+  background: #333439;
+  color: #F6F6F6;
+}
+
+.dark .projets {
+  color: #1C1C1C;
+}
+
+.dark .bouton-menu button{
+  background: #1C1C1C;
+  color: #F6F6F6;
+  border: 2px solid #F7F7F7; 
+}
